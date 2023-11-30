@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 : Link</title>
+    <style>
+        span {
+            display: block;
+            width: 900px;
+            height: 850px;
+            padding: 5px;
+            border: 3px solid gray;
+        }
+
+        .normal {
+            width: 300px;
+        }
+
+        select {
+            width: 300px;
+        }
+
+        .big {
+            height: 200px;
+            width: 300px;
+        }
+
+        .resizable-block {
+            border: 1px solid #ccc;
+            resize: both;
+            overflow: auto;
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+        }
+
+        form {
+            border: 1px solid gray;
+            margin: 20px;
+            width: 400px;
+            gap: 8px;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <span>
+        <hr>
+        <a href="./index.html">Home</a>
+        &vert;<a href="./Education.html">Education</a>
+        &vert;<a href="./work.html">Work Experience</a>
+        &vert;<a href="./contact.html">Contact Me</a>&vert;
+        <hr>
+        <h1>Contact Me</h1>
+        <!--<p style="border: 1px solid black; padding: 20px;width: 400px;">-->
+
+        <br>
+        <form>
+            <p>Enter Your Info.</p>
+            <label class=normal for="Name">Your Name</label><br>
+            <input class=normal type="text" id="Name" name="Name">
+            <br><br>
+            <label for="Email">Your E-mail</label><br>
+            <input class=normal type="email" id="Email" name="Email">
+            <br><br>
+            <label for="Select">Gender</label><br>
+            <select name="Select" id="Gender">
+                <option value="" disabled selected>selected</option>
+                <option value="Men">Men</option>
+                <option value="Women">Women</option>
+                <option value="LGBTQ+">LGBTQ+</option>
+            </select>
+            <br>
+            <br>
+            <label for="Message">Message</label>
+            <br>
+            <textarea name="Message" id="Message" cols="30px" rows="10px"></textarea>
+            <br>
+            <input class=small type="submit" value="Send"> <!--Button สามารถใส่แทน input ใน type submit ได้-->
+            <input type="reset" values="Clear">
+        </form>
+
+        <!--</p>-->
+
+
+
+        </span.a>
+</body>
+
+</html>
